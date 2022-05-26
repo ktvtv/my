@@ -1,0 +1,34 @@
+{
+    "name": "ktvtv/my",
+    "description": "my",
+    "keywords": [
+        "mypackage"
+    ],
+    "authors": [
+        {
+            "name": "my",
+            "email": "nguyenqua515151@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Tailieuweb\\Mypackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+
+        ]
+    },
+    "scripts": {
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "preferred-install": "dist"
+    }
+}
